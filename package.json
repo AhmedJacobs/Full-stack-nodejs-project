@@ -1,0 +1,20 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "my first node project",
+  "type": "module",
+  "homepage": "https://github.com/AhmedJacobs/Full-stack-nodejs-project#readme",
+  "bugs": {
+    "url": "https://github.com/AhmedJacobs/Full-stack-nodejs-project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedJacobs/Full-stack-nodejs-project.git"
+  },
+  "license": "ISC",
+  "author": "ahmed yaacoub",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
