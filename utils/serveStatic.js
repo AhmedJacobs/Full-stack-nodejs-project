@@ -9,10 +9,11 @@ Challenge 2:
 
 3. Log 'filePath' to the console.
 */
-import path from 'path';
+import path from 'node:path';
 export const serveStatic = (baseDir) => {
   console.log(`The base directory for static files is: ${baseDir}`);
   // The logic for serving files would go here.
   const filePath = path.join(baseDir , 'public' , 'index.html');
+  console.log(`file path: ${filePath}`);
   console.log(filePath);
 };
